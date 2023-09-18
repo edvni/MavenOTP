@@ -20,7 +20,8 @@ public class DistanceCalculatorTest {
         double calculatedDistance = point1.distance(point2);
 
         // Assert that the calculated distance matches the expected distance
-        assertEquals(expectedDistance, calculatedDistance, 0.0001); // Adjust delta as needed
+        assertEquals(expectedDistance, calculatedDistance, 0.0001); // Adjust delta as neededd
+        // COMMENTS
     }
 
     // A helper method to calculate distance manually for testing
